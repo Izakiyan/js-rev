@@ -13,7 +13,7 @@ var investor = {
     { name: "Twitter", amount: 1000000 }
   ],
   invest: function (company) {
-  	while (investor.cash >= 1250000) {
+  	while (investor.cash > 0) {
   	for (var i = 0; i < prospectiveCompanies.length; i++) {
   		if (company = 1) 
   		{
